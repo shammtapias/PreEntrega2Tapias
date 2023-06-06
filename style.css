@@ -1,0 +1,112 @@
+/* Estilos generales */
+.body {
+    background-color: #509ab1;
+  }
+  
+  /* Navegador */
+  .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #509ab1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .nav a {
+    font-size: 20px;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav a:hover {
+    background-color: #f8cc0a;
+  }
+  
+  .navegador {
+    text-align: center;
+  }
+  
+  .logoImg {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Carrusel */
+  #carouselInicio {
+    background-color: #509ab1;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .textoInicio {
+    text-align: right;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .banner {
+    max-width: 35%;
+     margin-left: 1300px;
+     margin-top: 300px;
+
+  }
+  
+  /* Locales */
+  .container {
+    background-color: #f8cc0a;
+    padding: 20px;
+  }
+  
+  .inicioLocales {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    /* Estilos para pantallas de hasta 768px de ancho (tabletas y teléfonos) */
+    .nav li {
+      padding: 10px;
+    }
+  
+    .nav a {
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+  
+    .logoImg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Estilos para pantallas de hasta 480px de ancho (teléfonos) */
+    .nav li {
+      padding: 5px;
+    }
+  
+    .nav a {
+      font-size: 14px;
+      padding: 3px 5px;
+    }
+  
+    .textoInicio {
+      font-size: 16px;
+    }
+  }
+  
